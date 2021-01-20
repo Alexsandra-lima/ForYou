@@ -257,7 +257,7 @@ Tela Login*/
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         float: left;
-        margin-left: 15%;
+        margin-left: 5%;
     }
     .form-control mr-sm-2{
         margin-left: 27px; height: 44px; width: 237px; text-align: center; font-size: 16px; 
