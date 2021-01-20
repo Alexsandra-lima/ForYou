@@ -4,7 +4,6 @@
 <head>
     <meta charset='utf-8'>
     <meta lang="pt-br">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
@@ -12,179 +11,187 @@
 </head>
 
 <body>
-<!--MENU-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #17a2b8!important;">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <img src="./img/cropped-logo-mpg-construtora-incorporadora-site.png" style="width:140px; height: 65px; margin-left: 40px;">
-        <a class="navbar-brand" href="https://foryou-materialdeconstrucao.netlify.app/index.html" style="color: #fbffff; margin-left: 20px;">Home</a>
+    <!--MENU-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #17a2b8!important;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <img src="./img/cropped-logo-mpg-construtora-incorporadora-site.png"
+                style="width:100px; height: 50px; margin-left: 20px;">
+            <a class="navbar-brand" href="../ForYou/index.html"
+                style="color: #fbffff; margin-left: 20px;font-size: 15px;">Home</a>
 
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                    style="color:  rgba(255,255,255,.5); font-size: 19px;">
-                    Parceiros
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="https://nlcorp.extforms.netsuite.com/app/site/crm/externalleadpage.nl/compid.NLCORP/.f?formid=7653&h=AACffht_7FLWBejGVuWFjyhFbDd4TUjGgsc&leadsource=GLAD11184B101817AW&cid=ppc_gbr_erp&gclid=EAIaIQobChMI5Ome77Xa6wIVUQaRCh2lEgWyEAAYASAAEgKYGfD_BwE&ef_id=X1fsnQAAAcIO-LUn:20200908204205:s&redirect_count=1&did_javascript_redirect=T" target="_blank">EP Realtors</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Silochi</a>
-                </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                        style="color:  rgba(255,255,255,.5); font-size: 15px;">
+                        Parceiros
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                            href="https://nlcorp.extforms.netsuite.com/app/site/crm/externalleadpage.nl/compid.NLCORP/.f?formid=7653&h=AACffht_7FLWBejGVuWFjyhFbDd4TUjGgsc&leadsource=GLAD11184B101817AW&cid=ppc_gbr_erp&gclid=EAIaIQobChMI5Ome77Xa6wIVUQaRCh2lEgWyEAAYASAAEgKYGfD_BwE&ef_id=X1fsnQAAAcIO-LUn:20200908204205:s&redirect_count=1&did_javascript_redirect=T"
+                            target="_blank">EP Realtors</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.moveissilochi.com.br/" target="_blank">Silochi</a>
+                    </div>
 
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://foryou-materialdeconstrucao.netlify.app/informacoes" style="color:  rgba(255,255,255,.5); font-size: 19px;">Informações</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://foryou-materialdeconstrucao.netlify.app/produtos" style="color:  rgba(255,255,255,.5); font-size: 19px;">Produtos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://foryou-materialdeconstrucao.netlify.app/fale-conosco" style="color:  rgba(255,255,255,.5); font-size: 19px;">Fale Conosco</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="https://foryou-materialdeconstrucao.netlify.app/trabalhe-conosco" style="color:  rgba(255,255,255,.5); font-size: 19px;">Trabalhe Conosco</a>
-            </li>
-        </ul>
-       
-        <form class="form-inline my-2 my-lg-0" >
-            <input class="form-control mr-sm-2" type="search" placeholder="Faça sua busca aqui!"
-                aria-label="Search" style="margin-left: 27px; height: 44px; width: 237px; text-align: center; font-size: 16px; ">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-left: 10px;">Buscar</button>
-           
-           
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="margin-left: 10px; color:white;"> <a href="https://foryou-materialdeconstrucao.netlify.app/login.html"  style="color:white;">Login</a></button>
-      
-      
-        </form>
-    </div>
-</nav>
-            <div class="login">
-   
-               <div class="tela-login">
-                  
-                   <h3 style="margin-top: 80px;">Bem-Vindo, a MPG</h3>
-                   <p>Para se manter conectado conosco, <br>
-                    faça o login com suas informações pessoais.</p>
-                   <button style="border-radius: 15%;height: 12%;width: 30%;border: 2px solid #ffffff96; background-color: #1b8fa2 !important;color: white;font-size: 20px;font-weight: bold;margin-top: 25px;">Entrar</button>
-               </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:  rgba(255,255,255,.5); font-size: 15px;">Informações</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:  rgba(255,255,255,.5); font-size: 15px;">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="color:  rgba(255,255,255,.5); font-size: 15px;">Fale Conosco</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#" style="color:  rgba(255,255,255,.5); font-size: 15px;">Trabalhe
+                        Conosco</a>
+                </li>
+            </ul>
 
-             <div class="tela-cadastro">
-                   
-                   <h3 >Criar Conta</h3>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Faça sua busca aqui!" aria-label="Search"
+                    style="margin-left: 5px;height: 35px;width: 169px;text-align: center;font-size: 13px;">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+                    style="margin-left: 10px;">Buscar</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+                    style="margin-left: 10px;">Login</button>
+            </form>
+        </div>
+    </nav>
+    <div class="login">
 
-                  <div class="imagem">
+        <div class="tela-login">
 
-                    <img src="./img/facebook-circled-icon.png" style="width: 30px; height: 30px;">
-                    <img src="./img/email-iconpng.png" style="width: 30px; height: 30px;">
-                    <img src="./img/g+-icon.png" style="width: 30px; height: 30px;">
+            <h3 style="margin-top: 80px;">Bem-Vindo, a MPG</h3>
+            <p>Para se manter conectado conosco, <br>
+                faça o login com suas informações pessoais.</p>
+            <button
+                style="border-radius: 15%;height: 12%;width: 30%;border: 2px solid #ffffff96; background-color: #1b8fa2 !important;color: white;font-size: 20px;font-weight: bold;margin-top: 25px;">Entrar</button>
+        </div>
 
-                </div>
-                <form>
-                    <p>Ou use seu e-mail para registro</p>
-                    <p>
+        <div class="tela-cadastro">
+
+            <h3>Criar Conta</h3>
+
+            <div class="imagem">
+
+                <img src="./img/facebook-circled-icon.png" style="width: 30px; height: 30px;">
+                <img src="./img/email-iconpng.png" style="width: 30px; height: 30px;">
+                <img src="./img/g+-icon.png" style="width: 30px; height: 30px;">
+
+            </div>
+            <form>
+                <p>Ou use seu e-mail para registro</p>
+                <p>
                     <img src="./img/icone-pessoa-png.png" style="width: 20px; height: 23px;">
                     <input type="text" placeholder="Nome"><br>
                 </p>
                 <p>
-                    <img  src="./img/email-iconpng.png" style="width: 20px; height: 20px;">
+                    <img src="./img/email-iconpng.png" style="width: 20px; height: 20px;">
                     <input type="text" placeholder="E-mail"><br>
-                </p><p>
-                    <img  src="./img/cadeado-password.png" style="width: 20px; height: 20px;">
+                </p>
+                <p>
+                    <img src="./img/cadeado-password.png" style="width: 20px; height: 20px;">
                     <input type="text" placeholder="Senha"><br>
-                    <button style="border-radius: 15%;height: 12%;width: 23%; border:#1b8fa2; background-color: #1b8fa2 !important;
+                    <button
+                        style="border-radius: 15%;height: 12%;width: 23%; border:#1b8fa2; background-color: #1b8fa2 !important;
                     color: white;font-size: 20px;font-weight: bold;margin-top: 25px; margin-left: 33px;">Cadastrar</button>
                 </p>
-                </form>
-                </div>
+            </form>
         </div>
-   
+    </div>
+
 </body>
 <!--Começa o rodapé-->
 <footer class="footer">
     <div id="contato">
-        <h3 style="font-size: 25px;">CONTATOS</h3>
-        <p><img src="./img/be7f7eb1f18933369cf644f87bc8c74b-telefone-redondo---cone-by-vexels.png" style="width: 30px; height: 30px;"> (48) 3374.8719
-            (48) 99133.6556
+        <h3 style="font-size: 22px;">CONTATOS</h3>
+        <p><img src="./img/be7f7eb1f18933369cf644f87bc8c74b-telefone-redondo---cone-by-vexels.png"
+                style="width: 30px; height: 30px;"> (48) 3374.8719
+            (48) 99133.6556</br>
             (48) 98468.7349</p>
         <p><img src="./img/whatsapp-logo-icone-1.png" style="width: 30px; height: 30px;"> (48) 9819-8641 </p>
-        <p> <img src="./img/e-mail.png" style="width: 30px; height: 30px;"> vendas@mpg.com.br  </p>
+        <p> <img src="./img/e-mail.png" style="width: 30px; height: 30px;"> vendas@mpg.com.br </p>
         <p><img src="./img/localização.png" style="width: 30px; height: 30px;"> Av. Pedra Branca, Nº 2000, <br>
-             Bairro: Pedra Branca, Palhoça - SC, 88137-270</p>
-            
-           </div>
-    <div class="link">
-        <h3 style="font-size: 25px;">LINKS</h3>
+            Bairro: Pedra Branca, Palhoça - SC, 88137-270</p>
+
+    </div>
+    <div class="link" style="margin-right: 354px; ">
+        <h3 style="font-size: 22px;">LINKS</h3>
         <p>
             <a href=" ">
-            Fornecedores
+                Fornecedores
             </a>
         </p>
         <p>
             <a href="">
                 Orçamento
             </a>
-      </p>
+        </p>
         <p>
             <a href="">
                 Parceiros
             </a>
-      </p>
-      <p>
-        <a href="">
-           Reclamações e Sugestões
-        </a>
-    </p>
-    <p>
-        <a href="">
-            Trabalhe Conosco
-        </a>
-  </p>
-  <div class="outros-serviços">
-      <h3 style="font-size: 25px;">SERVIÇOS</h3>
-  <p>
-    <p>
-        <a href="">
-            Assistência
-        </a>
- 
-<p>
-    <a href="">
-        Ofertas
-    </a>
-</p>
-<p>
-    <a href="">
-        Promoções
-    </a>
-</p>
-<p>
-<a href="">
-    Revenda
-</a>
-</p>
-</p>
-<a href="">
-    Venda
-</a>
-</p>
-  </div>
+        </p>
+        <p>
+            <a href="">
+                Reclamações e Sugestões
+            </a>
+        </p>
+        <p>
+            <a href="">
+                Trabalhe Conosco
+            </a>
+        </p>
+        <div class="outros-serviços" style="    margin-right: -106px;     margin-top: -248px;">
+            <h3 style="font-size: 22px;">SERVIÇOS</h3>
+            <p>
+            <p>
+                <a href="">
+                    Assistência
+                </a>
+
+            <p>
+                <a href="">
+                    Ofertas
+                </a>
+            </p>
+            <p>
+                <a href="">
+                    Promoções
+                </a>
+            </p>
+            <p>
+                <a href="">
+                    Revenda
+                </a>
+            </p>
+            </p>
+            <a href="">
+                Venda
+            </a>
+            </p>
+        </div>
     </div>
-    <div class="redes-sociais">
-       <h3 style= "color: #fbffff;; margin: 10px; text-decoration: underline; font-size:25px ">NOSSAS REDES SOCIAIS</h3>
-       <p><img src="./img/facebook.png" style="width: 40px; height: 40px;margin-right: 16px;"> 
-        <img src="./img/Telegram-icon.png " style="width: 40px; height: 40px;margin-right: 16px;">
-        <img src="./img/instagram-icone-icon.png" style="width: 40px; height: 40px;margin-right: 16px;">
-        <img src="./img/Socail-Media_twitter_06.gif" style="width: 40px; height: 40px;margin-right: 16px;"></p>
+    <div class="redes-sociais" style="margin-right: -625px;">
+        <h3 style="color: #fbffff;; margin: 10px; text-decoration: underline; font-size:22px ">NOSSAS REDES SOCIAIS</h3>
+        <p><img src="./img/facebook.png" style="width: 40px; height: 40px;margin-right: 16px;">
+            <img src="./img/Telegram-icon.png " style="width: 40px; height: 40px;margin-right: 16px;">
+            <img src="./img/instagram-icone-icon.png" style="width: 40px; height: 40px;margin-right: 16px;">
+            <img src="./img/Socail-Media_twitter_06.gif" style="width: 40px; height: 40px;margin-right: 16px;"></p>
     </div>
 </footer>
 
 <footer class="rodape">
-    <p style="text-align: center; height: 30px; font-size: 17px;  color: #fbffff;; margin: 0; "> Todos os direitos reservados a  &#169; <strong>Alexsandra Lima</strong> </p>
+    <p style=" height: 30px; font-size: 17px;  color: #fbffff;; margin: 0; "> Todos os direitos
+        reservados a &#169; <strong>Alexsandra Lima</strong> </p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

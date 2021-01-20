@@ -1,7 +1,9 @@
-body {
+html, body {
+    max-width: 100%;
+    min-width: 980px;
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -82,10 +84,12 @@ body {
     width: 100%;
     height: 300px;
     padding: 30px;  
-    color: rgba(255,255,255,.5);      
+    color: rgba(255,255,255,.5); 
+       
     }
     #contato{
         float: left;
+        margin-left: 10%;
             }
     #contato h3{
         color: #fbffff;
@@ -93,7 +97,7 @@ body {
         margin-bottom: 12px;
     }
     .link{
-        margin-right: 506px;
+        margin-right: 50%;
         float: right;
         
     }
@@ -121,9 +125,7 @@ body {
         margin-right: -768px;      
     }
     
-    .rodape{
-        background-color: #17a2b8 !important;
-    }
+       
     .navbar {
         position: relative;
         display: -ms-flexbox;
@@ -224,7 +226,7 @@ a  active{
 
 Tela Login*/
 .login{
-    padding: 5px;
+   
     margin: 5%;
     font-size: 20px;
     line-height: 33px;
@@ -248,4 +250,56 @@ Tela Login*/
     width: 50%;
     height: 350px;
     text-align: center;
+    }
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        float: left;
+        margin-left: 15%;
+    }
+    .form-control mr-sm-2{
+        margin-left: 27px; height: 44px; width: 237px; text-align: center; font-size: 16px; 
+    }
+    .btn btn-outline-success my-2 my-sm-0{
+        margin-left: -70%;
+    }
+    .imagem-banner{
+        width: 88%;
+    height: 400px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 1%;
+    }
+    .footer {
+     
+        background-color: #077283 !important;
+      /*  width:100%;
+        position: fixed;
+        height: 35%;
+        bottom: 0;*/
+        position: relative;
+        margin-top: -150px; /* negative value of footer height */
+        height: 280px;
+        clear:both;
+        padding-top:20px;
+            
+    }
+    .rodape-2{
+        width: 100%;
+       /* float: left;
+        margin-left:  5%;
+        background-color: #17a2b8 !important;*/
+        position: relative;
+        height: 50px;
+        clear:both;
+        padding-top:20px;
+        color: #077283;
+        text-align: center;
+    }
+    .redes-sociais {
+        float: right;
+        margin-top: -265px;
+        margin-right: -157%;
     }
